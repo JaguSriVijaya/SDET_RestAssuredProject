@@ -57,9 +57,9 @@ public class Testcase1 {
 	   boolean ValidateName = Responsebody.contains(Name);
 	   Assert.assertEquals(true, ValidateName);
 	   System.out.println("Name in Response body is matching with the given name");
-	   boolean ValidateType = Responsebody.equalsIgnoreCase(Type);
+	   boolean ValidateType = Responsebody.contains(Type);
 	   Assert.assertEquals(true, ValidateType);
-	   System.out.println("Type in Response body is matching with the given name");
+	   System.out.println("Type in Response body is matching with the given Type");
 	}
 	@DataProvider(name = "InputsFromExcel")
 	public Object[][] exceldata() throws IOException {

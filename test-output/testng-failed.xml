@@ -5,7 +5,7 @@
     <classes>
       <class name="restassuredtestcases.Testcase1">
         <methods>
-          <include name="datasourceexample"/>
+          <include name="datasourceexample" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- restassuredtestcases.Testcase1 -->
     </classes>
